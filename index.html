@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logo Microsoft</title>
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .microsoft{
+            position: relative;
+            width: 25em;
+            height: 25em;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 1.1em;
+        }
+
+        #top-left{
+            background-color: #f14f21;
+        }
+
+        #top-right{
+            background-color: #7eb900;
+        }
+
+        #bottom-left{
+            background-color: #00a3ee;
+        }
+
+        #bottom-right{
+            background-color: #feb800;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="microsoft">
+        <div id="top-left"></div>
+        <div id="top-right"></div>
+        <div id="bottom-left"></div>
+        <div id="bottom-right"></div>
+    </div>
+</body>
+</html>
